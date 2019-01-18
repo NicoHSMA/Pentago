@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PentagoV1
+comment1.params=
+comment1.target=void\ Spielen()
+comment10.params=
+comment10.target=void\ ausgabeSpielfeld()
+comment2.params=Spieler
+comment2.target=void\ setzeStein(int)
+comment3.params=Spieler
+comment3.target=boolean\ gewonnen(int)
+comment4.params=Spieler\ i\ j
+comment4.target=boolean\ horizontal(int,\ int,\ int)
+comment5.params=Spieler\ i\ j
+comment5.target=boolean\ vertikal(int,\ int,\ int)
+comment6.params=Spieler\ i\ j
+comment6.target=boolean\ schr\u00E4g(int,\ int,\ int)
+comment7.params=Spieler\ i\ j
+comment7.target=boolean\ schr\u00E4gLinksOben(int,\ int,\ int)
+comment8.params=Spieler\ i\ j
+comment8.target=boolean\ schr\u00E4gRechtsOben(int,\ int,\ int)
+comment9.params=
+comment9.target=void\ erzeugeSpielfeld()
+numComments=11

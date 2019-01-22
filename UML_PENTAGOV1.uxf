@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>10</y>
+      <w>410</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>::PentagoV1
+--
+~feld = new int[6][6]: int[][]
+~zug = 1: int
+--
++Spielen(): void
++setzeStein(int Spieler): void
++gewonnen(int Spieler): boolean
++horizontal(int Spieler, int i, int j): boolean
++vertikal(int Spieler, int i, int j): boolean
++schräg(int Spieler, int i, int j): boolean
++schrägLinksOben(int Spieler, int i, int j): boolean
++schrägRechtsOben(int Spieler, int i, int j): boolean
++erzeugeSpielfeld(): void
++ausgabeSpielfeld(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>220</y>
+      <w>270</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Spieler
+--
+KI; boolean
+--
++setzeStein(int Spieler): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>460</y>
+      <w>400</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Spiel
+--
+~feld = new int[6][6]: int[][]
+~zug = 1: int
+--
++Spielen(): void
++gewonnen(int Spieler): boolean
++horizontal(int Spieler, int i, int j): boolean
++vertikal(int Spieler, int i, int j): boolean
++schräg(int Spieler, int i, int j): boolean
++schrägLinksOben(int Spieler, int i, int j): boolean
++schrägRechtsOben(int Spieler, int i, int j): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>480</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Spielfeld
+--
++erzeugeSpielfeld(): void
++ausgabeSpielfeld(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>220</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>View</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>220</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
